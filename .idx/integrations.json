@@ -1,5 +1,6 @@
 {
   "firebase_hosting": {
     "deploymentHostingUrl": "https://itio-space.web.app"
-  }
+  },
+  "gemini_api": {}
 }
