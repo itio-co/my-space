@@ -3,6 +3,8 @@
   import Counter from "./lib/Counter.svelte";
   import GeminiChat from "./lib/GeminiChat.svelte";
   import OpenWithIDX from "./lib/OpenWithIDX.svelte";
+
+  import Button from "./stories/Button.svelte";
 </script>
 
 <main>
@@ -18,6 +20,8 @@
   <div class="card">
     <GeminiChat></GeminiChat>
   </div>
+
+  <Button primary label="Test StoryBook" />
 </main>
 
 <style>
