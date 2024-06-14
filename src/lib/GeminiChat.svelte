@@ -27,8 +27,10 @@
     ];
 
     // Call the gemini-pro model, and get a stream of results
+    const apiKey = process.env.GOOGLE_API_KEY;
     const chatAI = new ChatGoogleGenerativeAI({
       modelName: 'gemini-pro',
+      apiKey,
       safetySettings: [
         {
           category: HarmCategory.HARM_CATEGORY_HARASSMENT,
