@@ -1,13 +1,15 @@
 <script>
-  import "./app.css";
   import Counter from "./lib/Counter.svelte";
   import GeminiChat from "./lib/GeminiChat.svelte";
   import OpenWithIDX from "./lib/OpenWithIDX.svelte";
 
   import Button from "./stories/Button.svelte";
+  import Header from "./stories/Header.svelte";
 </script>
 
 <main>
+  <Header />
+  
   <h1>Welcome to My Space!</h1>
   <div class="card">
     <OpenWithIDX></OpenWithIDX>
@@ -22,6 +24,9 @@
   </div>
 
   <Button primary label="Test StoryBook" />
+<Button primary label="Test" />
+
+
 </main>
 
 <style>
